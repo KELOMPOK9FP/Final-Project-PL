@@ -87,7 +87,48 @@ namespace UTS_Kelompok9
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            if (textBox1.Text.ToLower() == label7.Text.ToLower())
+            {
+                label7.BackColor = Color.Orange;
+                label1.BackColor = Color.Orange;
+            }
+            else if (textBox1.Text.ToLower() == label8.Text.ToLower())
+            {
+                label8.BackColor = Color.Orange;
+                label2.BackColor = Color.Orange;
+            }
+            else if(textBox1.Text.ToLower() == label9.Text.ToLower())
+            {
+                label9.BackColor = Color.Orange;
+                label3.BackColor = Color.Orange;
+            }else if(textBox1.Text.ToLower() == label10.Text.ToLower())
+            {
+                label10.BackColor = Color.Orange;
+                label4.BackColor = Color.Orange;
+            }else if(textBox1.Text.ToLower() == label11.Text.ToLower())
+            {
+                label11.BackColor = Color.Orange;
+                label5.BackColor = Color.Orange;
+            }else if(textBox1.Text.ToLower() == label12.Text.ToLower())
+            {
+                label12.BackColor = Color.Orange;
+                label6.BackColor = Color.Orange;
+            }
+            else
+            {
+                label1.BackColor = Color.White;
+                label2.BackColor = Color.White;
+                label3.BackColor = Color.White;
+                label4.BackColor = Color.White;
+                label5.BackColor = Color.White;
+                label6.BackColor = Color.White;
+                label7.BackColor = Color.White;
+                label8.BackColor = Color.White;
+                label9.BackColor = Color.White;
+                label10.BackColor = Color.White;
+                label11.BackColor = Color.White;
+                label12.BackColor = Color.White;
+            }
         }
     }
 }

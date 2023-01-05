@@ -39,10 +39,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.contactus1 = new UTS_Kelompok9.contactus();
             this.aboutus1 = new UTS_Kelompok9.aboutus();
             this.delivery_division1 = new UTS_Kelompok9.delivery_division();
@@ -204,6 +204,21 @@
             this.panel3.Size = new System.Drawing.Size(638, 51);
             this.panel3.TabIndex = 2;
             // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Elephant", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(563, 7);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(30, 30);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "---";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // button6
             // 
             this.button6.FlatAppearance.BorderSize = 0;
@@ -242,21 +257,6 @@
             this.panel4.Size = new System.Drawing.Size(624, 421);
             this.panel4.TabIndex = 3;
             // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Elephant", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(563, 7);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(30, 30);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "---";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
             // contactus1
             // 
             this.contactus1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -287,6 +287,7 @@
             // 
             // drinks_division1
             // 
+            this.drinks_division1.AutoScroll = true;
             this.drinks_division1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drinks_division1.Location = new System.Drawing.Point(0, 0);
             this.drinks_division1.Margin = new System.Windows.Forms.Padding(5);
@@ -297,7 +298,7 @@
             // foods_division1
             // 
             this.foods_division1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.foods_division1.Location = new System.Drawing.Point(2, 2);
+            this.foods_division1.Location = new System.Drawing.Point(0, 0);
             this.foods_division1.Margin = new System.Windows.Forms.Padding(5);
             this.foods_division1.Name = "foods_division1";
             this.foods_division1.Size = new System.Drawing.Size(624, 421);
