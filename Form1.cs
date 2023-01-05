@@ -12,6 +12,7 @@ namespace UTS_Kelompok9
 {
     public partial class Form1 : Form
     {
+    
         public Form1()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace UTS_Kelompok9
 
         private void button1_Click(object sender, EventArgs e)
         {
+        //foods class
             foods_division1.BringToFront();
 
             button1.BackColor = Color.DimGray;
@@ -35,6 +37,7 @@ namespace UTS_Kelompok9
 
         private void button2_Click(object sender, EventArgs e)
         {
+        //drink class
             drinks_division1.BringToFront();
             button2.BackColor = Color.DimGray;
             button1.BackColor = Color.Black;
@@ -67,6 +70,7 @@ namespace UTS_Kelompok9
 
         private void button5_Click(object sender, EventArgs e)
         {
+        //button
             contactus1.BringToFront();
             button5.BackColor = Color.DimGray;
             button4.BackColor = Color.Black;
