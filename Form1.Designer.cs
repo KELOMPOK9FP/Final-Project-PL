@@ -351,6 +351,7 @@
         private aboutus aboutus1;
         private contactus contactus1;
         private System.Windows.Forms.Button button7;
+        //editing
     }
 }
 
