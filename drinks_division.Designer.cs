@@ -54,6 +54,12 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.psnBurger = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,10 +74,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label3.Location = new System.Drawing.Point(431, 197);
+            this.label3.Location = new System.Drawing.Point(431, 184);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 20);
+            this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Rp6.000";
             // 
@@ -81,7 +88,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(428, 77);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox3.Size = new System.Drawing.Size(120, 105);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 14;
             this.pictureBox3.TabStop = false;
@@ -89,10 +96,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label2.Location = new System.Drawing.Point(242, 197);
+            this.label2.Location = new System.Drawing.Point(242, 184);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 20);
+            this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 13;
             this.label2.Text = "Rp4.000";
             // 
@@ -102,7 +110,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(239, 77);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox2.Size = new System.Drawing.Size(120, 105);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -110,10 +118,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label1.Location = new System.Drawing.Point(53, 197);
+            this.label1.Location = new System.Drawing.Point(53, 184);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 20);
+            this.label1.Size = new System.Drawing.Size(69, 17);
             this.label1.TabIndex = 11;
             this.label1.Text = "Rp3.000";
             // 
@@ -123,7 +132,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(50, 77);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox1.Size = new System.Drawing.Size(120, 105);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -131,10 +140,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label6.Location = new System.Drawing.Point(431, 389);
+            this.label6.Location = new System.Drawing.Point(431, 376);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 20);
+            this.label6.Size = new System.Drawing.Size(69, 17);
             this.label6.TabIndex = 21;
             this.label6.Text = "Rp5.000";
             // 
@@ -144,7 +154,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(428, 269);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox6.Size = new System.Drawing.Size(120, 105);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 20;
             this.pictureBox6.TabStop = false;
@@ -152,10 +162,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label5.Location = new System.Drawing.Point(242, 389);
+            this.label5.Location = new System.Drawing.Point(242, 376);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 20);
+            this.label5.Size = new System.Drawing.Size(69, 17);
             this.label5.TabIndex = 19;
             this.label5.Text = "Rp6.000";
             // 
@@ -165,7 +176,7 @@
             this.pictureBox5.Location = new System.Drawing.Point(239, 269);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox5.Size = new System.Drawing.Size(120, 105);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
@@ -173,10 +184,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(0)))), ((int)(((byte)(25)))));
-            this.label4.Location = new System.Drawing.Point(53, 389);
+            this.label4.Location = new System.Drawing.Point(53, 376);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 20);
+            this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 17;
             this.label4.Text = "Rp6.000";
             // 
@@ -186,7 +198,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(50, 269);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(130, 115);
+            this.pictureBox4.Size = new System.Drawing.Size(120, 105);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 16;
             this.pictureBox4.TabStop = false;
@@ -322,11 +334,83 @@
             this.label15.TabIndex = 32;
             this.label15.Text = "Rp3.000";
             // 
+            // psnBurger
+            // 
+            this.psnBurger.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.psnBurger.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.psnBurger.Location = new System.Drawing.Point(67, 204);
+            this.psnBurger.Name = "psnBurger";
+            this.psnBurger.Size = new System.Drawing.Size(75, 28);
+            this.psnBurger.TabIndex = 35;
+            this.psnBurger.Text = "Pesan";
+            this.psnBurger.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(258, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 28);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "Pesan";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(444, 205);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 28);
+            this.button2.TabIndex = 37;
+            this.button2.Text = "Pesan";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.button3.Location = new System.Drawing.Point(67, 396);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 28);
+            this.button3.TabIndex = 38;
+            this.button3.Text = "Pesan";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.button4.Location = new System.Drawing.Point(258, 396);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 28);
+            this.button4.TabIndex = 39;
+            this.button4.Text = "Pesan";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.button5.Location = new System.Drawing.Point(444, 396);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 28);
+            this.button5.TabIndex = 40;
+            this.button5.Text = "Pesan";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // drinks_division
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.psnBurger);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
@@ -355,7 +439,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "drinks_division";
-            this.Size = new System.Drawing.Size(607, 421);
+            this.Size = new System.Drawing.Size(590, 421);
             this.Load += new System.EventHandler(this.drinks_division_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -398,5 +482,11 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button psnBurger;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

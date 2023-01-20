@@ -56,5 +56,10 @@ namespace UTS_Kelompok9
         {
             System.Diagnostics.Process.Start("MIcrosoftEdge", "https://www.instagram.com/yahyahnda_/");
         }
+
+        private void contactus_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
