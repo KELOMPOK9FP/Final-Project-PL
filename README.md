@@ -1,4 +1,4 @@
-# "FRESH FOOD" Final-Project-Pemrograman Lanjut
+# "Tamato" Final-Project-Pemrograman Lanjut
 -------------------------------------------------
 this is final project template for makes application restaurant food and drink order. we from group 9 from S1 informatics Majoring Amikom university 
 ------------------------------------------
