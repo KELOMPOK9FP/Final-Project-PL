@@ -2,6 +2,7 @@
 {
     partial class foods_division
     {
+        //food_division
         /// <summary> 
         /// Required designer variable.
         /// </summary>
